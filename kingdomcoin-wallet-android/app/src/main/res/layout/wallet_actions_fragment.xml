@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#0b2a3d"
+	android:divider="@drawable/divider_dark"
+	android:dividerPadding="8dp"
+	android:measureWithLargestChild="true"
+	android:orientation="horizontal"
+	android:layout_centerInParent="false"
+	android:gravity="right|center">
+
+	<Button
+		android:id="@+id/button1"
+		style="@style/My.Widget.Button.Borderless"
+		android:layout_height="30dp"
+		android:background="@drawable/i2"
+		android:gravity="left|center_vertical"
+		android:singleLine="true"
+		android:textAllCaps="true"
+		android:textColor="@android:color/black"
+		android:textSize="20sp"
+		android:layout_marginLeft="20dp"
+		android:textStyle="bold"
+		android:layout_width="30dp" />
+
+	<Button
+		android:id="@+id/wallet_actions_request"
+		style="@style/My.Widget.Button.Borderless"
+		android:layout_width="30dp"
+		android:layout_height="30dp"
+		android:background="@drawable/i7"
+		android:gravity="left|center_vertical"
+		android:singleLine="true"
+		android:textAllCaps="true"
+		android:layout_marginLeft="20dp"
+		android:textColor="@android:color/black"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<Button
+		android:id="@+id/wallet_actions_send"
+		style="@style/My.Widget.Button.Borderless"
+		android:layout_width="30dp"
+		android:layout_height="30dp"
+		android:background="@drawable/i6"
+		android:gravity="right|center_vertical"
+		android:singleLine="true"
+		android:textColor="@android:color/black"
+		android:layout_marginLeft="20dp"
+		android:textAlignment="center"
+		android:textSize="20sp" />
+
+	<Button
+		android:id="@+id/settingBtn"
+		style="@style/My.Widget.Button.Borderless"
+		android:layout_width="30dp"
+		android:layout_height="30dp"
+		android:background="@drawable/i4"
+		android:gravity="left|center_vertical"
+		android:singleLine="true"
+		android:textAllCaps="true"
+		android:layout_marginLeft="20dp"
+		android:textColor="@android:color/black"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<ImageButton
+		android:id="@+id/wallet_actions_send_qr"
+		style="@style/My.Widget.Button.Borderless"
+		android:layout_marginLeft="20dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/ic_action_camera" />
+
+</LinearLayout>

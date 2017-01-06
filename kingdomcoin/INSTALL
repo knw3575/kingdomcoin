@@ -1,0 +1,9 @@
+Building Kingdomcoin
+
+See doc/readme-qt.rst for instructions on building Kingdomcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Kingdomcoin.
+
+See doc/build-*.txt for instructions on building kingdomcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Kingdomcoin.

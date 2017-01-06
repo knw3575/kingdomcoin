@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+
+<string name="info_wallet">
+
+<![CDATA[
+		<p>
+			MESHcoin版本1.0
+		</p>
+]]>
+</string>
+
+
+<string name="help_wallet">
+
+<![CDATA[
+		<p>
+			屏幕左上面显示收MESHcoin时需要的您所选择的MESHcoin地址。
+			如愿意改地址，请点击。
+		</p>
+		<p>
+			左边的QR码包含MESHcoin地址，别人扫描时可以使用
+			如愿意放大QR码，请点击。
+		</p>
+		<p>
+			在画面的中间部分，显示您的余额
+			您钱包的价值也以选择的地区货币为显示。
+			如愿意查看所有的货币单位，请点击余额（Balance）后，再点击目录。
+		</p>
+		<p>
+			画面下边显示您的交易目录。第一次是因没有交易信息，所以是空的。
+			未支付的交易直到确认一直显示为灰色。
+			在通讯录要加发信人或收信人的话，请点击添加。
+			要适用滤器的话，请向左边或右边推
+		</p>
+		<p>
+			点击任务栏键的话，可发送或要求coin
+			在选项菜单可设置更多
+        </p>
+]]>
+</string>
+
+
+<string name="help_request_coins">
+
+<![CDATA[
+		<p>
+			通过聊天箱子，可以向别人要求coin（只限于安装MESHcoin Wallet）
+		</p>
+		<p>
+			请输入首先要求的coin个数
+		</p>
+		<p>
+			让下一个人扫描下一个生成的QR码。或者使用任务拦的共享键可以向远程使用人发送要求
+			发信人要点击MESHcoin URL
+		</p>
+		<p>
+			不管任何方，对发信人显示发送coin的聊天工具。
+			同意后，做立即发送就行。
+		</p>
+]]>
+</string>
+
+<string name="help_send_coins">
+
+<![CDATA[
+		<p>
+			您已开始为发送coin的过程。
+			在主页画面或手机浏览器点击MESH URL后跳到此。
+		</p>
+		<p>
+			首先，请输入要支付的MESHcoin地址。
+			此地址在通讯录保存的项目做自动完成
+			点击任务栏的QR键后要求MESHcoin地址或要求MESHcoin，可以扫描QR码
+		</p>
+		<p>
+			下一个可以确认，到目前为止使用了多少MESHcoin。
+			在主页画面和余额的差异，直到得到认可不可使用。
+		</p>
+		<p>
+			最后，请输入要支付的金额。
+		</p>
+		<p>
+			在线下状态也可以支付。
+			重新开启MESHcoin钱包，可以发送。
+			要尽量快点做支付的话，链接状态必须要好（例如：WLAN）
+		</p>
+		<p>
+			注意：
+			不可取消发送！
+			请每次确认要收到的电子钱包地址。
+		</p>
+]]>
+</string>
+
+
+<string name="help_safety">
+
+<![CDATA[
+        <p><b>重要！ 安全注意事项</b></p>
+        <p>
+			将MESHcoin保存在钱包
+            <b>如丢失钱包的话，您的coin也一起丢失的</b>
+        </p>
+        <p>
+            这意思就是，<b>您的钱包需要备份</b>!
+			请不要使用其他公司的备份App，而要使用App里面的备份功能。
+			请安全地保存备份，请记住密码。
+        </p>
+        <p>
+            <b>清除程序之前</b>(或者删除App数据 / 擦机器), <b>请将您的MESHcoin移动到别的钱包.</b>将没移动的MESHcoin会消失的。
+        </p>
+        <p>
+            <b>支付不可取消</b>.
+			如果您将MESHcoin发送到错误的钱包地址，没有办法再收回。
+        </p>
+        <p>
+            <b>请安全地保管手机！</b>
+            不要关闭装置
+            请只安装可信任的App
+            恶性App会偷钱包的。
+        </p>
+        <p>
+            请最小化风险
+            <b>请只剩于少量的coin使用</b>(当日要使用的coin)
+        </p>
+        <p><b>DISCLAIMER OF WARRANTY</b></p>
+        <p>此应用程序的开发者，为了提高功能和安全尽最大的努力研发。即，MESHcoin是（和bitcoin一样）已公开的公认软件。</p>
+        <span style=\"font-family: monospace\">
+			THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+			IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+			FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+			AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+			LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+			OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+			THE SOFTWARE.
+		</span>
+]]>
+</string>
+</resources>

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <resources>
+
+    <string name="toast_wallet_reset">已重新设置钱包\n为完全恢复，请等等</string>
+
+    <string name="wallet_disclaimer_fragment_remind_safety">为减少风险 <u>请阅读注意事项</u>.</string>
+
+    <string name="wallet_disclaimer_fragment_remind_backup"> <u>需要备份电子钱包</u>!</string>
+
+    <string name="blockchain_state_progress_hours">%1$s, %2$d自时间以前同步中</string>
+
+    <string name="blockchain_state_progress_days">%1$s, %2$d自日以前同步中</string>
+
+    <string name="blockchain_state_progress_weeks">%1$s, %2$d自周以前同步中</string>
+
+    <string name="blockchain_state_progress_months">%1$s, %2$d自个月以前同步中</string>
+
+    <string name="blockchain_state_progress_downloading">网络同步中</string>
+
+    <string name="blockchain_state_progress_stalled">停止同步</string>
+
+    <string name="blockchain_state_progress_problem_storage">正在同步中：保存空间出现问题</string>
+
+    <string name="blockchain_state_progress_problem_network">正在同步中：网络出现问题</string>
+
+    <string name="wallet_address_fragment_your">我的coin地址</string>
+
+    <string name="wallet_address_fragment_clipboard_msg">已将MESHcoin地址复制到剪贴板 </string>
+
+    <string name="wallet_addresses_fragment_add_dialog_title">新加MESHcoin地址 </string>
+
+    <string name="wallet_addresses_fragment_add_dialog_message">不会删除MESHcoin地址的。 在钱包要添加新地址吗？ </string>
+
+    <string name="wallet_balance_fragment_replaying">重新开启块环链中，不可做碎片接入 </string>
+
+    <string name="exchange_rates_activity_title">汇率</string>
+
+    <string name="exchange_rates_fragment_empty_text">读取汇率信息失败</string>
+
+    <string name="exchange_rates_fragment_default">(初始值)</string>
+
+    <string name="exchange_rates_fragment_rate">评估汇率</string>
+
+    <string name="exchange_rates_fragment_balance">评估余额</string>
+
+    <string name="exchange_rates_fragment_source">价格来源%s</string>
+
+    <string name="exchange_rates_context_set_as_default_title">设置为标准货币</string>
+
+    <string name="wallet_transactions_fragment_tab_home">主页</string>
+
+    <string name="wallet_transactions_fragment_tab_received">收取信息</string>
+
+    <string name="wallet_transactions_fragment_tab_all">所有交易信息</string>
+
+    <string name="wallet_transactions_fragment_tab_sent">发送信息</string>
+
+    <string name="wallet_transactions_fragment_empty_text_received">还没有收取MESHcoin的信息 </string>
+
+    <string name="wallet_transactions_fragment_empty_text_sent">还没有发送MESHcoin的信息 </string>
+
+    <string name="wallet_transactions_fragment_empty_text_howto">获得MESHcoin的方法 \n\n 以本地货币购买MESHcoin ,\n销售服务或商品 \n 以劳务代价获得 </string>
+
+    <string name="wallet_transactions_row_warning_backup">恭喜！ 收到第一次支付<u>为了防止遗失，要完成钱包备份吗？ </u></string>
+
+    <string name="wallet_transactions_fragment_coinbase">新挖矿coin</string>
+
+    <string name="wallet_transactions_fragment_internal">内部有误</string>
+
+    <string name="wallet_transactions_context_show_qr_title">查看QR码</string>
+
+    <string name="wallet_transactions_context_browse">搜索</string>
+
+    <string name="wallet_transactions_context_show_transaction_title">交易信息</string>
+
+    <string name="wallet_options_backup">备份</string>
+
+    <string name="wallet_options_disconnect">分离</string>
+
+    <string name="wallet_options_safety">参照安全问题</string>
+
+    <string name="wallet_options_donate">消费/捐献</string>
+
+    <string name="wallet_donate_address_label">MESHcoin app的捐献地址</string>
+
+    <string name="wallet_low_storage_dialog_title">保存空间不足！</string>
+
+    <string name="wallet_low_storage_dialog_msg">MESHcoin钱包为了记住交易信息和块，使用内部保存空间。如保存空间不足的话，会引起自动停止App和对保存和交易MESHcoin上出现问题！为了整理不需要的App，要打开App管理者吗？</string>
+
+    <string name="wallet_low_storage_dialog_button_apps">App整理</string>
+
+    <string name="wallet_timeskew_dialog_title">装置机器的时间设置确认</string>
+
+    <string name="wallet_timeskew_dialog_msg">装置机器的设置时间有%d 分钟的误差，因其误差无法进行MESHcoin的收发报 \n\n 请确认目前时间和标准时区设置以后修改</string>
+
+    <string name="wallet_timeskew_dialog_button_settings">设置</string>
+
+    <string name="wallet_version_dialog_title">可使用使用新版本！</string>
+
+    <string name="wallet_version_dialog_msg">目前版本已修改各种重要错误。更详细的内容请参照在谷歌Play的其App的修改点</string>
+
+    <string name="wallet_version_dialog_button_market">谷歌play</string>
+
+    <string name="wallet_version_dialog_button_binary">下载</string>
+
+    <string name="wallet_old_sdk_dialog_title">请升级安卓版本</string>
+
+    <string name="wallet_old_sdk_dialog_message">下次升级本MESHcoin钱包时，有可能不支持正在使用的装置机器。并且在此装置机器汇款MESHcoin的时，偶尔会发生错误的。\n\n 如不完全确认的话，推荐将此钱包拥有的MESHcoin移动到别的地方。</string>
+
+    <string name="send_coins_activity_title">汇款MESHcoin</string>
+
+    <string name="send_coins_fragment_receiving_address_label">收取地方</string>
+
+    <string name="send_coins_fragment_receiving_address_hint">请输入地址或名字</string>
+
+    <string name="send_coins_fragment_receiving_address_error">您输入的MESHcoin地址有错误！</string>
+
+    <string name="send_coins_fragment_receiving_address_error_cross_network">在电子钱包不可使用地址！</string>
+
+    <string name="send_coins_fragment_receiving_address_error_cross_network_unknown">这钱包因在未知的网络生成的，所以不可使用！</string>
+
+    <string name="send_coins_fragment_available_label">可发报</string>
+
+    <string name="send_coins_fragment_pending">(为得到认可，正在等待中 : %s )</string>
+
+    <string name="send_coins_fragment_amount_label">汇款额</string>
+
+    <string name="send_coins_fragment_amount_empty">请输入金额</string>
+
+    <string name="send_coins_fragment_amount_error">您输入的金额有错误</string>
+
+    <string name="send_coins_fragment_bluetooth_enable">通过蓝牙发送</string>
+
+    <string name="send_coins_fragment_bluetooth_ack">成功完成通过蓝牙支付</string>
+
+    <string name="send_coins_fragment_bluetooth_nack">被拒绝通过蓝牙支付</string>
+
+    <string name="send_coins_fragment_button_send">发送</string>
+
+    <string name="send_coins_fragment_button_back">返回</string>
+
+    <string name="send_coins_preparation_msg">正在登录中</string>
+
+    <string name="send_coins_sending_msg">在发报中</string>
+
+    <string name="send_coins_sent_msg">已发送！</string>
+
+    <string name="send_coins_failed_msg">失败！</string>
+
+    <string name="send_coins_error_msg">发送coin，出现问题</string>
+
+    <string name="send_coins_options_empty">空钱包</string>
+
+    <string name="send_coins_address_context_clear_title">输入新地址</string>
+
+    <string name="request_coins_activity_title">要求MESHcoin </string>
+
+    <string name="request_coins_fragment_address_label">要求地址</string>
+
+    <string name="request_coins_fragment_include_address_label">包含地址标签</string>
+
+    <string name="request_coins_fragment_amount_label">要求金额（选择事项）</string>
+
+    <string name="request_coins_fragment_initiate_request_qr">让MESHcoin汇款人读取QR码</string>
+
+    <string name="request_coins_fragment_initiate_request_nfc">或者，在使用支持NFC机器的话，请互相接触下</string>
+
+    <string name="request_coins_fragment_bluetooth_enabled">申请蓝牙支付</string>
+
+    <string name="request_coins_clipboard_msg">已在剪贴板复制MESHcoin要求</string>
+
+    <string name="request_coins_share_dialog_title">MESHcoin发送要求的共享</string>
+
+    <string name="request_coins_options_local_app_title">在安装好的App汇款到我的地址</string>
+
+    <string name="address_book_activity_title">通信录</string>
+
+    <string name="address_book_list_receiving_title">我的MESHcoin地址</string>
+
+    <string name="address_book_list_sending_title">交易通信录</string>
+
+    <string name="address_book_empty_text">没有保存的通信录</string>
+
+    <string name="address_book_context_send_title">将MESHcoin发送到地址</string>
+
+    <string name="address_book_context_edit_title">修改地址</string>
+
+    <string name="address_book_context_remove_title">删除地址</string>
+
+    <string name="address_book_context_show_qr_title">查看QR码</string>
+
+    <string name="address_book_context_copy_to_clipboard_title">复制到剪贴板</string>
+
+    <string name="address_book_context_default_title">设置为标准地址</string>
+
+    <string name="address_book_options_paste_from_clipboard_title">在剪贴板粘贴</string>
+
+    <string name="address_book_options_copy_from_clipboard_msg_empty">剪贴板是空的</string>
+
+    <string name="address_book_options_scan_title">读取QR地址</string>
+
+    <string name="address_book_row_message_compromised_key">这地址很有可能被露出在外部。如果要收汇款的话，最好不要使用该地址。</string>
+
+    <string name="edit_address_book_entry_dialog_title_add">新加地址</string>
+
+    <string name="edit_address_book_entry_dialog_title_edit">修改地址</string>
+
+    <string name="edit_address_book_entry_dialog_address_label">MESHcoin地址</string>
+
+    <string name="edit_address_book_entry_dialog_label_label">地址名</string>
+
+    <string name="edit_address_book_entry_dialog_button_edit">保存</string>
+
+    <string name="transaction_activity_title">交易</string>
+
+    <string name="transaction_fragment_time_label">日期</string>
+
+    <string name="transaction_fragment_amount_sent_label">发信</string>
+
+    <string name="transaction_fragment_amount_received_label">收信</string>
+
+    <string name="transaction_fragment_from_label">发送人</string>
+
+    <string name="transaction_fragment_to_label">收取人</string>
+
+    <string name="transaction_fragment_you">you</string>
+
+    <string name="transaction_fragment_status_label">状态</string>
+
+    <string name="transaction_fragment_status_unknown">未确认</string>
+
+    <string name="transaction_fragment_status_pending">正在等待认可</string>
+
+    <string name="transaction_fragment_status_confirmed">已认可</string>
+
+    <string name="transaction_fragment_status_dead">已被断开</string>
+
+    <string name="transaction_fragment_hash_label">井号 </string>
+
+    <string name="transaction_fragment_hash_clipboard_msg">交易井号复制到剪贴板</string>
+
+    <string name="transaction_fragment_length_label">长度</string>
+
+    <string name="transaction_row_message_purpose_key_rotation">此交易方式为防止盗窃，让电子钱包提高安全性<u>자세히 보기 查看详细</u></string>
+
+    <string name="transaction_row_message_own_unbroadcasted">交易还没达成</string>
+
+    <string name="transaction_row_message_received_unconfirmed_unlocked">到完成支付需要几分钟</string>
+
+    <string name="transaction_row_message_received_unconfirmed_locked">不可信任支付</string>
+
+    <string name="transaction_row_message_received_dead">发送人取消了支付</string>
+
+    <string name="transaction_row_message_received_dust">刚输入的极少量的金额有可能不能汇款</string>
+
+    <string name="network_monitor_activity_title">网络监测</string>
+
+    <string name="network_monitor_peer_list_title">Peer状态</string>
+
+    <string name="network_monitor_block_list_title">块</string>
+
+    <string name="peer_list_fragment_empty">没有连接上Peer</string>
+
+    <string name="peer_list_row_ping_time">⇆ %d ms</string>
+
+    <string name="import_keys_dialog_title">恢复电子钱包</string>
+
+    <string name="import_keys_dialog_message">请选择在保存装置或App保存空间所保管的电子钱包的备份文件</string>
+
+    <string name="import_keys_dialog_file_security_encrypted">密码已被加密</string>
+
+    <string name="import_keys_dialog_file_security_unencrypted">没有做加密</string>
+
+    <string name="import_keys_dialog_file_security_external">保存装置</string>
+
+    <string name="import_keys_dialog_file_security_internal">App里的保存空间</string>
+
+    <string name="import_keys_dialog_file_created_automatic">自动备份时间:%s</string>
+
+    <string name="import_keys_dialog_file_created_manual">手动备份时间:%s</string>
+
+    <string name="import_keys_dialog_button_import">恢复</string>
+
+    <string name="import_keys_dialog_success_imported">%d 已恢复好个人密钥 </string>
+
+    <string name="import_keys_dialog_success_existing">%d 未恢复个人密钥。已在电子钱包拥有同样的个人密钥。</string>
+
+    <string name="import_keys_dialog_success_reset">为恢复电子钱包后升级余额，需要重新同步块环链。现在启动吗？</string>
+
+    <string name="import_keys_dialog_failure">未恢复个人密钥\n\n%s\n\n 请确认密码</string>
+
+    <string name="import_keys_dialog_button_reset_blockchain">重新做同步</string>
+
+    <string name="export_keys_dialog_title">电子钱包备份</string>
+
+    <string name="export_keys_dialog_message">加密为被选择为电子钱包的密码，在机器保存装置做备份</string>
+
+    <string name="export_keys_dialog_button_export">备份</string>
+
+    <string name="export_keys_dialog_success">电子钱包已做备份\n\n%s\n\n请安全地保存密码\n\n要通过App保存密钥吗？</string>
+
+    <string name="export_keys_dialog_failure">电子钱包未做备份\n%s</string>
+
+    <string name="export_keys_dialog_button_archive">实施备份</string>
+
+    <string name="export_keys_dialog_mail_subject">钱包电子钱包备份</string>
+
+    <string name="export_keys_dialog_mail_text">加密的附件文件包含MESHcoin个人密钥，请每次安全地保存。千万不要忘记加密的密码</string>
+
+    <string name="export_keys_dialog_mail_intent_chooser">备份保存方法选择</string>
+
+    <string name="import_export_keys_dialog_password">密码</string>
+
+    <string name="import_export_keys_dialog_show">显示密码</string>
+
+    <string name="import_export_keys_dialog_failure_title">错误</string>
+
+    <string name="import_keys_intent_filter_action">MESHcoin电子钱包恢复</string>
+
+    <string name="scan_camera_problem_dialog_title">照相机QR扫描错误</string>
+
+    <string name="scan_camera_problem_dialog_message">照相机有问题，请重新开启装置</string>
+
+    <string name="input_parser_cannot_classify">不能识别输入码\n%s</string>
+
+    <string name="input_parser_invalid_Meshcoin_uri">MESHcoin错误！URI:\n%s</string>
+
+    <string name="input_parser_invalid_address">MESHcoin地址错误！\n(Mixing up Mainnet/Testnet?)</string>
+
+    <string name="input_parser_invalid_transaction">交易错误！:\n%s</string>
+
+    <string name="preferences_activity_title">设置</string>
+
+    <string name="preferences_category_main">选择菜单</string>
+
+    <string name="preferences_category_diagnostics">错误诊断</string>
+
+    <string name="preferences_category_labs">研究室</string>
+
+    <string name="preferences_precision_title">修改票面及要显示的位数 </string>
+
+    <string name="preferences_precision_summary">这是显示数量单位的领域。不影响到算出的数值。</string>
+
+    <string name="preferences_connectivity_notification_title">显示链接</string>
+
+    <string name="preferences_connectivity_notification_summary">显示在提醒窗链接的Peer的现在个数</string>
+
+    <string name="preferences_trusted_peer_title">可信任的Peer</string>
+
+    <string name="preferences_trusted_peer_port_title">可信任的Peer端口</string>
+
+    <string name="preferences_trusted_peer_port_summary">单一Peer端链接</string>
+
+    <string name="preferences_trusted_peer_summary">IP或要连接的单一Peer的主机名IP</string>
+
+    <string name="preferences_trusted_peer_only_title">跨越一般的Peer探索</string>
+
+    <string name="preferences_trusted_peer_only_summary">切断包含可信任的Peer和任何Peer的新链接</string>
+
+    <string name="preferences_data_usage_title">数据使用量</string>
+
+    <string name="preferences_data_usage_summary">显示在手机网络使用的数据使用量的限制设置</string>
+
+    <string name="preferences_report_issue_title">错误报告</string>
+
+    <string name="preferences_report_issue_summary">收集问题信息后，发邮件给开发者</string>
+
+    <string name="preferences_initiate_reset_title">块环链重新做同步</string>
+
+    <string name="preferences_initiate_reset_summary">块环链重新做同步，同步交易和钱包的余额需要时间 </string>
+
+    <string name="preferences_initiate_reset_dialog_message">同步块环链以后，要新加载吗？\n\n暂时不显示钱包余额，并删除交易信息。完成重新同步后，自动恢复余额和交易信息 。</string>
+
+    <string name="preferences_initiate_reset_dialog_positive">重新同步</string>
+
+    <string name="report_issue_dialog_title_issue">错误报告</string>
+
+    <string name="report_issue_dialog_title_crash">加载中出现错误</string>
+
+    <string name="report_issue_dialog_message_issue">请详细描述要报告的问题，以便开发者能明确了解错误内容。 如果此错误只发生于目前拥有的钱包的话，请附上Dump附件。</string>
+
+    <string name="report_issue_dialog_message_crash">为解决问题，要发送以后发生的非正常结束报告吗？</string>
+
+    <string name="report_issue_dialog_description">输入错误内容</string>
+
+    <string name="report_issue_dialog_report">发送</string>
+
+    <string name="report_issue_dialog_collect_device_info">附上装置机器的信息</string>
+
+    <string name="report_issue_dialog_collect_installed_packages">附上装置机器上设置的App目录</string>
+
+    <string name="report_issue_dialog_collect_application_log">附上App对数</string>
+
+    <string name="report_issue_dialog_collect_wallet_dump">附上钱包Dump</string>
+
+    <string name="report_issue_dialog_mail_intent_chooser">错误报告书发送方法选择</string>
+
+    <string name="about_title">App介绍</string>
+
+    <string name="about_license_title">许可证</string>
+
+    <string name="about_credits_Meshcoinj_title">%s版本使用</string>
+
+    <string name="about_credits_zxing_title">"使用zxing的QR码信息"</string>
+
+    <string name="about_credits_icon_title">"使用bitboy的图标</string>
+
+    <string name="about_community_googleplus_title">谷歌Plus 讨论场</string>
+
+    <string name="about_community_googleplus_summary">关于App的讨论</string>
+
+    <string name="about_author_twitter_title">开发者推特</string>
+
+    <string name="about_author_googleplus_title">开发者 Google+</string>
+
+    <string name="about_market_app_title">谷歌Plus App网页</string>
+
+    <string name="about_market_app_title_bb">黑莓生态园App网页</string>
+
+    <string name="about_market_app_summary">去留App评价或打等级分</string>
+
+    <string name="about_credits_market_publisher_title">开发者的别的App</string>
+
+    <string name="notification_coins_received_msg">%s 收取MESHcoin提示</string>
+
+    <string name="notification_peers_connected_msg">%d Peer链接个数提示</string>
+
+    <!-- generic buttons -->
+
+
+    <string name="button_ok">确认</string>
+
+    <string name="button_dismiss">取消</string>
+
+    <string name="button_cancel">删除</string>
+
+    <string name="button_help">帮助</string>
+
+    <string name="button_add">添加</string>
+
+    <string name="button_delete">删除</string>
+
+    <string name="button_edit">修改</string>
+
+    <string name="button_copy">复制</string>
+
+    <string name="button_paste">粘贴</string>
+
+    <string name="button_share">共享</string>
+
+    <string name="button_set_as_default">设置为标准码</string>
+
+    <string name="button_request_coins">发送要求coin</string>
+
+    <string name="button_send_coins">去汇款</string>
+
+    <string name="button_scan">读取QR</string>
+
+    <string name="button_edit_address">地址添加/编辑</string>
+
+    <string name="action_browse">块环链探索</string>
+
+    <string name="time_today">今天</string>
+
+    <string name="address_unlabeled">没有名字）</string>
+
+    <string name="send_coins_uri_parse_error_title">解析错误</string>
+
+    <string name="sendcoins_title_insufficientfunds">存款不足</string>
+
+    <string name="sendcoins_insufficient_preamble">没有充分的资金完成交易</string>
+
+    <string name="sendcoins_insufficient_amount_prefix">需要更多的Coin</string>
+
+    <string name="sendcoins_insufficient_amount_suffix">余额不足</string>
+
+    <string name="sendcoins_insufficient_instructions">请调整钱包值或添加资金</string>
+
+    <string name="sendcoins_fee_required">手续费</string>
+
+    <string name="preferences_qr_title">QR码扫描App</string>
+
+    <string name="preferences_qr_summary">为扫描QR码，要使用什么App？</string>
+
+    <string name="wallet_transactions_context_browse2">资源管理器</string>
+
+    <string name="transaction_fragment_confirmations_label">确认</string>
+
+    <string name="disclaimer">有知悉注意事项吗？ 有安全地备份个人密钥了吗？</string>
+
+    <string name="edit_transaction_note_dialog_title_edit">交易备忘录</string>
+
+    <string name="edit_transaction_note_dialog_txid_label">TX</string>
+
+    <string name="edit_transaction_note_dialog_note_label">备忘录</string>
+
+    <string name="button_edit_note">备忘录编辑</string>
+</resources>
+

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <string name="info_wallet">
+
+    <![CDATA[
+		<p>
+			킹덤코인 버전 1.0
+		</p>
+]]>
+</string>
+
+    <string name="help_wallet">
+
+    <![CDATA[
+		<p>
+			스크린 왼쪽 위에 있는 부분은 Meshcoins을 받기위해 필요한 당신이 선택한 Meshcoin 주소를 보여주고 있습니다.
+			주소를 바꾸고 싶으면 클릭하십시오.
+		</p>
+		<p>
+			오른쪽의 QR 코드에는 Meshcoin 주소가 포함되어 있으며 다른 당사자가 스캔하는 데 사용할 수 있습니다.
+			QR코드를 확대하고 싶으면 클릭하십시오.
+		</p>
+		<p>
+			화면의 가운데부분에서, 당신의 잔액이 보여지고 있습니다.
+			당신 지갑의 가치 또한 선택된 지역 통화로써 보여지고 있습니다.
+			모든 화폐단위를 보고 싶으시면 잔액(Balance)을 클릭하신 후 목록에서 클릭하세요.
+		</p>
+		<p>
+			화면밑쪽은 당신의 거래 목록을 보여주고 있습니다. 처음에는 거래내역이 없으므로 비어있습니다. 미결제 거래는 확인이 될 때까지 회색으로 표시됩니다.
+			주소북에 발신인이나 수신인를 추가하려면 추가를 클릭하십시오.
+			필터를 목록에 적용하려면 왼쪽 또는 오른쪽으로 밀어 주세요.
+		</p>
+		<p>
+			작업 표시 줄의 버튼클릭으로 코인을 보내거나 요청할 수 있습니다.
+			옵션메뉴에서 더 많은 설정이 가능합니다.
+        </p>
+]]>
+</string>
+
+    <string name="help_request_coins">
+
+    <![CDATA[
+		<p>
+			대화상자를 통하여, 다른 사람에게 코인을 요청할 수 있습니다.(Meshcoin Wallet을 설치한 사람에 한하여 요청가능)
+		</p>
+		<p>
+			먼저 요청할 코인의 개수를 입력해 주세요.
+		</p>
+		<p>
+			그 다음 생성된 QR코드를 다른 사람이 스캔하도록 합니다. 또는 작업 표시 줄의 공유 버튼을 사용하여 원격 사용자에게 요청을 보낼 수 있습니다.
+			발신인은 킹덤코인 URL을 클릭해야합니다.
+		</p>
+		<p>
+			어느 쪽이든, 발신인에게 코인을 보내기 위한 대화상자가 표시될 것입니다.
+			동의하고 난 후로는 바로 보내기만 하면 됩니다.
+		</p>
+]]>
+</string>
+
+
+    <string name="help_send_coins">
+
+    <![CDATA[
+		<p>
+			당신은 코인을 보내기 위한 과정을 시작했습니다. 메인화면이나 모바일 브라우저에서 킹덤코인 URL을 클릭하여 여기에 왔습니다.
+		</p>
+		<p>
+			먼저, 지불 할 Meshcoin 주소를 입력하십시오.
+			이 주소는 주소록의 저장된 항목에서 자동 완성됩니다.
+			작업표시줄의 QR버튼을 눌러 킹덤코인 주소 또는 킹덤코인 요청으로 QR코드를 스캔 할 수도 있습니다.
+		</p>
+		<p>
+			다음으로 현재 얼마의 킹덤코인을 사용할 수 있는지 확인할 수 있습니다.
+			메인 화면에 잔액과의 차이는 승인이 완료될 때까지 사용할 수 없습니다.
+		</p>
+		<p>
+			마지막으로, 지불 할 금액을 입력하십시오.
+		</p>
+		<p>
+			오프라인 상태에서도 결제될  수 있습니다.
+			킹덤코인 지갑을 재시작하면 전송됩니다.
+			가능한 한 빨리 결제를 처리하려면 연결 상태가 양호해야합니다 (예 : WLAN).
+		</p>
+		<p>
+			주의:
+			전송은 취소할 수 없습니다!
+			받을 전자지갑주소를 항상 확인 하십시오.
+		</p>
+]]>
+</string>
+
+
+    <string name="help_safety">
+
+    <![CDATA[
+        <p><b>중요! 안전주의사항 :</b></p>
+        <p>
+			킹덤코인은 지갑에 저장됩니다.
+            <b>만일 지갑을 잃어버리면, 당신의 코인도 잃게 됩니다.</b>
+        </p>
+        <p>
+            그 말인 즉,<b>지갑을 백업해야 한다는 의미입니다.</b>!
+			타사 백업 앱이 아닌 앱 안의 백업 기능을 사용하십시오.
+			백업을 안전하게 보관하고 암호를 기억하십시오.
+        </p>
+        <p>
+            <b> 프로그램을 제거하기 전에</b>(또는 앱 데이터 지우기 / 기기 닦기), <b>귀하의 킹덤코인을 다른 지갑으로 옮기십시오.</b> 옮겨지지 못한 나머지 킹덤코인은 사라집니다.
+        </p>
+        <p>
+            <b>지불은 취소되지 않습니다.</b>.
+			만약 당신이 킹덤코인을 잘못된 지갑 주소로 보낼 경우, 다시 되받을 방법은 거의 없습니다.
+        </p>
+        <p>
+            <b>모바일 기기를 안전하게 보관하세요!</b>
+            장치를 끄지 마십시오.
+            완전히 신뢰하는 앱만 설치하십시오.
+            악성 앱이 지갑을 훔칠 수도 있습니다.
+        </p>
+        <p>
+            위험을 최소화 하십시오!
+            <b>적은양의 코인만 담아 사용하십시오.</b>(당일 사용할 코인)
+        </p>
+        <p><b>DISCLAIMER OF WARRANTY</b></p>
+        <p>
+			이 응용 프로그램의 개발자는 기능과 보안을 향상시키기 위해 최선의 노력을 다합니다. 즉, 킹덤코인(Bitcoin과 같은)은 공개적으로 공된 소프트웨어입니다.
+		</p>
+        <span style=\"font-family: monospace\">
+			THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+			IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+			FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+			AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+			LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+			OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+			THE SOFTWARE.
+		</span>
+	]]>
+</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+    <title>Kingdom Coin Wallet</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+    </script>
+</head>
+
+<body>
+<div id="wrap">
+    <!-- header -->
+    <header>
+        <div>
+            <p class="home"><a href="/?home"><img src="images/home.png" alt="홈으로" /></a></p>
+            <h1>Kingdom Coin Wallet</h1>
+        </div>
+    </header>
+    <!--// header -->
+
+    <!-- container style="position: absolute;width: 400px;height: 150px;margin: -200px 0 0 -75px;top: 50%;left: 50%;"-->
+    <div id="container">
+        <div >
+
+            <!-- 로그인팝업 -->
+            <div class="modal fade" id="loginmodal_login" role="dialog">
+                <div id="container">
+                    <div class="purchase1">
+                        <div class="find_info">
+                            <div class="login_pass">
+                                <h3>Send Coin</h3>
+                                <form name="sendForm" class="login-form" action="/dosend" method="post">
+                                    <p><input type="text" id="address" name="address" size="20" placeholder="  Address" /></p>
+                                    <p><input type="text" id="amount" name="amount" size="20" placeholder="  Amount" /></p>
+                                    <p class="findbtn_pass"><a href="javascript:sendForm.submit();">SEND</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--모달윈도우부분-->
+            <script type="text/javascript">
+
+                function regist() {
+                    var userid = $("#userid").val();
+                    var password = $("#password").val();
+                    location.href = "/regist?userid=" + userid + "&password=" + password;
+                }
+            </script>
+            <!--//모달윈도우부분-->
+
+
+
+        </div>
+    </div>
+    <!-- //container -->
+
+    <!-- footer -->
+    <footer>
+
+    </footer>
+    <!--// footer -->
+</div>
+<script>
+
+</script>
+</body>
+</html>

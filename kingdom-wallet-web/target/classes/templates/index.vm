@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+<title>Kingdom Coin Wallet</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/main.css">
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+</script>
+</head>
+
+<body>
+<div id="wrap">
+	<!-- header -->
+	<header>
+		<div>
+			<p class="home"><a href="#"><img src="images/home.png" alt="홈으로" /></a></p>
+			<h1>Kingdom Coin Wallet</h1>
+			#if (!${user})
+			<p class="log"><a href="/login">Login</a></p>
+			#else
+				<p class="log"><a href="/logout">Logout</a></p>
+			#end
+		</div>
+	</header>
+	<!--// header -->
+
+	<!-- container style="position: absolute;width: 400px;height: 150px;margin: -200px 0 0 -75px;top: 50%;left: 50%;"-->
+	<div id="container">
+		<div class="user_info">
+			<div class="user_num">
+			</div>
+			<div>
+				<div class="hb_logo">
+					<p><img src="images/hb.png?dummy=1" alt="hb로고" /></p>
+				</div>
+				<div class="hb">
+					<p class="form">
+					#if (${wallet})
+						<input type="text" value="${wallet.address}" size="32" id="url" style="float:right;" placeholder="  Address" disabled/>
+					#else
+                        <input type="text" value="" size="32" id="url" style="float:right;" placeholder="  Address" disabled/>
+					#end
+					</p>
+					<br/>
+					<br/>
+					<p class="hb_exp">
+						<span class="hb_info">
+							#if (${balance})
+								<span>${balance}</span><label>KC</label>
+							#else
+                                <span>-</span><label>KC</label>
+							#end
+						</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="list_btn">
+			<div class="btn1">
+				<p><a href="/send"><span>SEND</span></a></p>
+				<p><a href="/"><span>TRANSACTION</span></a></p>
+			</div>
+			<div class="btn2">
+				<p><a href="#">TRANSACTIONS</a></p>
+
+				#foreach($transaction in ${transactions})
+					#if (${transaction.category} != 'move')
+                    	<p><a href="#">${transaction.category} ${transaction.address} ${transaction.amount}KC confirm : ${transaction.confirmations}</a></p>
+					#end
+				#end
+			</div>
+		</div>
+	</div>
+	<!-- //container -->
+
+	<!-- footer -->
+	<footer>
+
+	</footer>
+	<!--// footer -->
+</div>
+<script type="text/javascript">
+    $( document ).ready(function() {
+
+    }
+</script>
+</body>
+</html>

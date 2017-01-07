@@ -1,0 +1,552 @@
+/* main.css */
+
+body{font-size:20px;}
+a{color:#fff;}
+
+
+
+header{
+		width:100%;
+		max-width:1000px;
+		margin:0 auto;
+		padding:2px 0;
+		border-bottom:2px solid #dcdcdc;;}
+header div{
+		width:96%;
+		margin:0 auto;
+		position:relative;
+		height:55px;
+}
+header h1{
+		text-align:center;
+		font-size:27px;
+		line-height:55px;
+}
+p.home{
+		position:absolute;
+		left:0; top:7px;
+}
+p.home img{
+		width:36px;
+		padding:6px 5px 5px 0;
+}
+p.log{
+		position:absolute;
+		right:0; top:11px;
+}
+p.log a{
+		display:block;
+		height:32px;
+		width:70px;
+		line-height:30px;
+		font-size:14px;
+		text-align:center;
+		color:#fff;
+		background:#2e95e4;
+}
+
+#container{
+		width:95%;
+		max-width:1000px;
+		margin:0 auto;
+}
+div.user_info:after{
+		display:block; clear:both; content:"";
+}
+div.user_num{
+		font-weight:bold;
+		padding:8px 0 10px 0;
+}
+div.user_num label{
+		margin-left:6px;
+}
+div.user_info > div:last-child{
+		margin:5px 0;
+}
+div.user_info > div:last-child:after{
+		display:block; clear:both; content:"";
+}
+div.user_info div.hb_logo{
+		width:28%;
+		float:left;
+		text-align:center;
+}
+div.user_info div.hb_logo img{
+		padding-top:62px;
+		max-width:75px;
+}
+div.user_info div.hb{
+		width:69%;
+		float:right;
+}
+div.user_info p.form input{
+		border:1px solid #a0a0a0;
+		height:35px;
+		border-radius:3px;
+		width:64%;
+}
+div.user_info p.form a{
+		width:32%;
+		height:39px;
+		display:block;
+		border-radius:3px;
+		background:#616065;
+		font-size:13px;
+		line-height:39px;
+		text-align:center;
+		float:right;
+}
+div.user_info div.hb p.hb_exp{
+		font-size:20px;
+		font-weight:bold;
+		color:#fff;
+		border-radius:3px;
+		background:#616065;
+		text-align:right;
+		padding:14px 12px 14px 0;
+		margin:10px 0;
+}
+div.user_info div.hb span.hb_info{
+		display:block;
+}
+div.user_info div.hb span.hb_info label{
+		margin-left:10px;
+}
+
+div.list_btn{
+		margin-top:15px;
+		font-weight:bold;
+}
+div.list_btn div:after{
+		display:block; clear:both; content:"";
+}
+div.list_btn div.btn1{
+		margin-bottom:12px;
+}
+div.list_btn div.btn1 p{
+		border-radius:3px;
+		width:48.7%;
+		text-align:center;
+		margin-bottom:10px;
+}
+div.list_btn div.btn1 p a{
+		display:block;
+		padding:20px 0;
+}
+div.list_btn div.btn1 p:first-child{
+		background:#2ec4e4;
+		float:left;
+}
+div.list_btn div.btn1 p:last-child{
+		background:#2ba4be;
+		float:right;
+}
+div.list_btn div.btn1 p span{
+		display:block;
+}
+div.list_btn div.btn1 p span:first-child{
+		padding-bottom:2%;
+}
+div.list_btn div.btn2{
+		text-align:center;
+}
+div.list_btn div.btn2 p{
+		background:#2e95e4;
+		width:100%;
+		border-radius:3px;
+		margin-bottom:10px;
+}
+div.list_btn div.btn2 p a{
+		display:block;
+		height:54px;
+		line-height:54px;
+}
+
+/* sub01 */
+div.purchase1, div.purchase2{
+		width:82%;
+		padding:15px 0;
+		margin:0 auto;
+		text-align:center;
+}
+div.purchase1 h2{
+		text-align:center;
+		font-size:27px;
+		margin-bottom:20px;
+}
+div.purchase1 input{
+		height:35px;
+		width:99%;
+		margin-bottom:10px;
+}
+div.purchase1 select{
+		height:39px;
+		width:100%;
+		margin-bottom:10px;
+}
+p.submit_btn{
+		text-align:center;
+		background:#3cb547;
+		border-radius:3px;
+		width:130px;
+		font-size:18px;
+		font-weight:bold;
+		margin:0 auto;
+		margin-top:6px;
+}
+p.submit_btn a{
+		display:block;
+		padding:10px 0;
+}
+div.purchase2{
+		font-size:15px;
+		font-weight:bold;
+}
+div.purchase2 p span{
+		display:block;
+}
+p.sub_st{
+		width:100%;
+		background:#e4e4e4;
+		padding:15px 0;
+		margin:15px 0;
+}
+div.purchase3{
+		width:94%;
+		margin:0 auto;
+}
+div.purchase3 h3{
+		font-size:22px;
+		font-weight:bold;
+		text-align:center;
+		color:red;
+		margin-bottom:10px;
+}
+p.b_check{
+		background:url(../images/b_1.png) no-repeat 0 5px;
+		background-size:8px;
+		padding-left:20px;
+		margin-bottom:15px;
+		font-size:15px;
+		font-weight:bold;
+}
+
+/* sub02 */
+a.all_btn{
+		background:#616065;
+		text-align:center;
+		display:block;
+		width:19%;
+		height:40px;
+		line-height:38px;
+		font-weight:bold;
+		font-size:16px;
+		float:right;
+		margin-left:4px;
+}
+div.bitcoin{
+		position:relative;
+		padding:20px 0;
+}
+div.bitcoin p:last-child{
+		background:#616065;
+		color:#fff;
+		font-size:15px;
+		font-weight:bold;
+		height:30px;
+		width:45%;
+		position:absolute;
+		right:0; top:20px;
+		line-height:28px;
+}
+div.bitcoin p:last-child label{
+		margin-left:10px;
+}
+div.bitcoin p:first-child{
+		width:45%;
+		font-size:14px;
+		text-align:left;
+		padding-top:5px;
+		background-position:0 10px;
+}
+
+/* sub03 */
+div.purchase3 h2{
+		padding:20px 0;
+		text-align:center;
+		font-size:27px;
+		margin-bottom:20px;
+}
+div.reserch{
+		position:relative;
+		background:#efefef;
+		margin-bottom:15px;
+		height:120px;
+}
+div.reserch:after{
+		display:block; clear:both; content:"";
+}
+div.reserch div:first-child{
+		float:left;
+		width:50%;
+}
+div.reserch div:first-child p{
+		float:left;
+		height:100px;
+		line-height:113px;
+		text-align:center;
+}
+div.reserch p.c_icon{
+		width:43%;
+}
+div.reserch p.c_situate{
+		font-size:18px;
+		font-weight:bold;
+		width:55%;
+		color:#2e95e4;
+}
+div.reserch div:last-child p{
+		font-weight:bold;
+		font-size:19px;
+		text-align:right;
+		padding:12px 10px 0 0;
+}
+div.reserch div:last-child p.date{
+		font-size:12px;
+}
+div.reserch div:last-child label{
+		margin-left:10px;
+}
+
+/* sub04 */
+div.friends{
+		position:relative;
+}
+div.friends p.sub_st{
+		font-size:15px;
+		border-radius:5px;
+		width:78.5%;
+}
+div.friends label{
+		margin-left:10px;
+}
+div.friends a{
+		position:absolute;
+		right:0; top:4.5px;
+}
+
+/* sub05 */
+div.trans_btn p{
+		float:right;
+		text-align:center;
+		border-radius:6px;
+		font-size:15px;
+		font-weight:bold;
+		width:38%;
+		margin-left:7px;
+}
+div.trans_btn p a{
+		padding:8px 0;
+		display:block;
+}
+div.trans_btn p:first-child{
+		background:#2ba4be;
+}
+div.trans_btn p:last-child{
+		background:#2ec4e4;
+}
+
+
+
+/* sub06 */
+p.b_circle{
+		background:url(../images/b_2.png) no-repeat 0 6px;
+		background-size:8px;
+		padding-left:20px;
+		margin-bottom:15px;
+		font-size:15px;
+		font-weight:bold;
+		text-align:left;
+}
+
+/* registration */
+div.regist p input{
+		border:1px solid #a0a0a0;
+		border-radius:3px;
+}
+div.regist p:first-child{
+		margin-bottom:10px;
+		font-size:15px;
+		text-align:left;
+		margin-left:1px;
+}
+div.regist p.code input{
+		width:60%;
+}
+div.regist p a.all_btn{
+		width:36.4%;
+		font-size:12px;
+		border-radius:3px;
+}
+div.regist:last-child{
+		margin-top:20px;
+		margin-bottom:20px;
+}
+
+/* find_pass */
+div.find_info{
+		color:#616065;
+		position:relative;
+}
+div.find_info input{
+		border:1px solid #a0a0a0;
+		border-radius:3px;
+}
+div.login_pass:after, div.findbtn:after{
+		display:block; clear:both; content:"";
+}
+div.login_pass h3{
+		text-align:left;
+		padding:20px 0;
+}
+p.findbtn_pass{
+		background:#2e95e4;
+		border-radius:3px;
+		width:45%;
+		float:right;
+		margin:15px 0 20px 0;
+}
+p.findbtn_pass a{
+		display:block;
+		padding:9px 0;
+		font-weight:bold;
+		font-size:15px;
+}
+div.findbtn, div.findbtn2{
+		padding:30px 0;
+		border-top:1px solid #b7b7b7;}
+p.findbtn_id{
+		background:#616065;
+		border-radius:3px;
+		width:60%;
+		float:right;
+}
+p.findbtn_id a{
+		display:block;
+		font-size:15px;
+		padding:10px 0;
+		font-weight:bold;
+}
+div.findbtn2 p:first-child{
+		width:37.6%;
+		margin-left:5px;
+}
+
+/* close_btn */
+p.close_btn{
+		position:absolute;
+		top:0; right:0;
+		width:20px;
+}
+
+
+div.sub_pop div.purchase3 h3{
+		padding:20px 0 15px 0;
+}
+p.b_title{
+		font-size:24px;
+		font-weight:bold;
+		text-align:center;
+		margin-bottom:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 팝업 */
+
+/*공통*/
+#wrap{position:relative;clear:both;}
+#contents{position:relative;clear:both;}
+
+
+
+
+#loginmodal_findpass, #loginmodal_findid, #loginmodal4, #loginmodal5{
+		border:1px solid #a0a0a0; background:#fff;}
+
+#center
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:300px;
+	height:200px;
+	overflow:hidden;
+	background-color:#FC0;
+	margin-top:-150px;
+	margin-left:-100px;
+}
+
+
+/** modal window styles **/
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+
+#loginmodal_findpass, #loginmodal_findid, #loginmodal4 {
+  width: 90%;height:300px;  /*팝업창의 크기조절*/
+  margin-top:76px;           /*팝업창 위아래 간격조절*/
+  background: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#loginmodal5 {
+  width: 90%;height:380px;  /*팝업창의 크기조절*/
+  margin-top:50px;           /*팝업창 위아래 간격조절*/
+  background: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#loginmodal_login {
+  width: 90%;height:360px;  /*팝업창의 크기조절*/
+  margin-top:50px;           /*팝업창 위아래 간격조절*/
+  background: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+

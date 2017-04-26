@@ -13,10 +13,10 @@
 		<item>2/3</item>
 	</string-array>
 	<string-array name="preferences_precision_labels">
-		<item>KC, 8 digits</item>
-		<item>KC, 6 digits</item>
-		<item>KC, 4 digits</item>
-		<item>mKC, 2 digits</item>
+		<item>KDC, 8 digits</item>
+		<item>KDC, 6 digits</item>
+		<item>KDC, 4 digits</item>
+		<item>mKDC, 2 digits</item>
 	</string-array>
 
 
